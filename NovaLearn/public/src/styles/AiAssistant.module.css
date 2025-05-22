@@ -1,0 +1,48 @@
+.aiAssistant {
+  border: 2px solid #a6e1fa;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  background: #f7fbfe;
+  width: 100%;
+  max-width: 480px;
+  margin: 2rem auto;
+}
+.messages {
+  min-height: 120px;
+  margin-bottom: 1rem;
+}
+.user {
+  text-align: right;
+  color: #3b82f6;
+  margin: 0.2em 0;
+}
+.ai {
+  text-align: left;
+  color: #1e293b;
+  background: #e0f2fe;
+  border-radius: 0.5em;
+  padding: 0.2em 0.6em;
+  margin: 0.2em 0;
+}
+.inputRow {
+  display: flex;
+  gap: 0.5em;
+}
+input {
+  flex: 1;
+  padding: 0.5em;
+  border-radius: 0.45em;
+  border: 1px solid #b6c8e4;
+}
+button {
+  background: #38bdf8;
+  color: white;
+  border: none;
+  border-radius: 0.45em;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+button:disabled {
+  background: #a6e1fa;
+  cursor: not-allowed;
+}

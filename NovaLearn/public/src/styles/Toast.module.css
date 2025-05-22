@@ -1,0 +1,26 @@
+.toast {
+  border: 1px solid #cbd5e1;
+  background: #f1f5f9;
+  border-radius: 1em;
+  padding: 1em;
+  margin: 1em auto;
+  max-width: 480px;
+  box-shadow: 0 1px 4px #0001;
+}
+.success {
+  border-left: 6px solid #4ade80;
+}
+.error {
+  border-left: 6px solid #f87171;
+}
+.info {
+  border-left: 6px solid #38bdf8;
+}
+.closeBtn {
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  float: right;
+  margin-left: 1em;
+  cursor: pointer;
+}
